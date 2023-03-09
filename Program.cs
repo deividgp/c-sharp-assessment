@@ -125,10 +125,7 @@ class MainClass
             currentGallons += gallons - neededGallons;
 
             if (i == startingPoint)
-            {
                 result = startingPoint.ToString();
-                break;
-            }
 
             if (currentGallons < 0)
                 break;
